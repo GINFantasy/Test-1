@@ -1,0 +1,30 @@
+*{
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu{
+	background-color: grey;
+	height: 60px;
+}
+
+.backgr{
+	background-color: transparent;
+}
+.size0{
+	font-weight:3em;
+	font-size:3em; 
+}
+
+#icon{
+	position: absolute;
+	left:110px;
+	top: 22px;
+}
+
+#logo{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}

@@ -4,23 +4,163 @@
 	padding: 0px;
 }
 
-#menu{
-	background-color: grey;
-	height: 60px;
+.header{
+	width: 1512px;
+	height: 94px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.menu{
+	width: 1512px;
+	height: 844px;
+	margin: 0 auto;
+	position: relative;
+
+}
+.move{
+	position: absolute;
 }
 
-.backgr{
+.relative{
+	position: relative;
+}
+
+
+.icon{
+	float: left;
+	width: 20px;
+	height: 20px;
+	left: 176px;
+	top: 42px;
+
+	position: absolute;
+}
+
+.logo{
+	background:url(../images/logo.png);
+	float: left;
+	width: 90px;
+	height: 22px;
+	left: 54px;
+	top: 42px;
+	position: absolute;
+}
+
+.decorate{
+
+	font-size: 16px;
+	color: rgb(106,106,107);
+	text-decoration: none;	
+	list-style: none;
+
+}
+.item{
+	
+	float: right;
+	margin: 20px;
+	margin-top: 46px;
+	right: 50px;
+	
+	
+}
+
+.search{: right;
+	width: 18px;
+	height: 18px;
+	top: 42px;
+	right: 62px;
+	position: absolute;
+	float: right;
+}
+
+.light1:hover{
+	color: rgb(230,39,57);
+}
+
+.light1img:hover{
+	color: rgb(230,39,57);
+}
+
+.ulsize{
+	float: right;
+	right: 100px;
+	top: -856px;
+	background-color: transparent;
+}
+.z1{
+	z-index: 1;
+}
+.z2{
+	z-index: 2;
+}
+.background{
+	width: auto;
+	max-width: 100%;
+
+}
+
+.sizetop{
+	position: absolute;
+	top: 36px;
+	left: 372px;
 	background-color: transparent;
 }
 
-#icon{
-	position: absolute;
-	left:110px;
-	top: 22px;
+.floatleft{
+	float: left;
 }
 
-#logo{
-	position: absolute;
-	left: 20px;
-	top: 20px;
+.floatright{
+	float: right;
+}
+
+.cube{
+	height: 218px;
+	width: 1512px;
+	background-color: rgb(27,28,29);
+	opacity: 0.5;
+	top: -150px;
+}
+.phsize{
+	height: 195px;
+	width: 378px;
+	float:left;
+}
+
+.photo{
+	width: 1512px;
+	height: 200px;
+	background-color: red;
+	margin: 0 auto;
+}
+/*Service部分*/
+.service{
+	height: 1504px;
+	width: 100%;
+}
+.menu-tip{
+
+	left: 50%;
+	top: 0;
+	font-size: 30px;
+	color: rgb(203,203,203);
+	text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+	height: 698px;
+	width: 100%;
 }

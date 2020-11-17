@@ -3,10 +3,20 @@
 	margin: 0px;
 	padding: 0px;
 }
-
+div {
+line-height:1px;
+}
+p {
+word-break:break-word;
+}
+ul li{
+    display: inline-block;
+    display: -moz-inline-stack;
+   *display: inline;
+}
 .header{
 	width: 1512px;
-	height: 94px;
+	height: 900px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -84,14 +94,17 @@
 .ulsize{
 	float: right;
 	right: 100px;
-	top: -856px;
+	top: -842px;
 	background-color: transparent;
 }
-.z1{
-	z-index: 1;
+.z-1{
+	z-index: -1;
 }
 .z2{
 	z-index: 2;
+}
+.z3{
+	z-index: 9999;
 }
 .background{
 	width: auto;
@@ -115,28 +128,55 @@
 }
 
 .cube{
-	height: 218px;
+	height: 256px;
 	width: 1512px;
-	background-color: rgb(27,28,29);
-	opacity: 0.5;
-	top: -150px;
+	background-color: rgba(255,255,255,0.1);
+	
+	top: -220px;
+}
+
+/*图片集*/
+.bluebackgr{
+	background-color: #008cff;
+	width: 378px;
+	height: 195px;
+	top: 938px;
+	position: absolute;
+	left: 586px;
+	opacity: 0.7;
+}
+
+.pointposition{
+	height: 100px;
+	width: 160px;
+	background-color: transparent;
+	position: absolute;
+	left:110px;
+	top: 46px;
 }
 .phsize{
 	height: 195px;
 	width: 378px;
 	float:left;
+	top: -500px;
 }
-
+.animation:hover{
+	
+}
 .photo{
 	width: 1512px;
-	height: 200px;
-	background-color: red;
-	margin: 0 auto;
+	height: 390px;
+	display: block;
+
+	margin-right: auto;
+	margin-left: auto;
 }
 /*Service部分*/
 .service{
-	height: 1504px;
-	width: 100%;
+	width: 1512px;
+	height:1170px;
+	margin: 0 auto;
+	position: relative;
 }
 .menu-tip{
 
@@ -145,22 +185,192 @@
 	font-size: 30px;
 	color: rgb(203,203,203);
 	text-align: center;
+}
 
+.container-mid1{
+	width: 1200px;
+	height: 360px;
+	background-color:rgb(203,203,203);
+	left: 156px;
+	top:-1050px;
+}
 
+.ourservice{
+
+	font-size: 30px;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	background-color: transparent;
+}
+.backgroundlow{
+	width: 1512px;
+	height: 1156px;
+}
+.ul-list{
+	width: 1200px;
+	height: 180px;
+	background-color: transparent;
+}
+.wordsize-big{
+	font-size: 28px;
+	color: #fff;
+	background-color: transparent;
+	display: inline-block;
+
+}
+.wordsize-sml{
+	font-size: 14px;
+	color: #fff;
+	background-color: transparent;
+		display: inline-block;
+	
 }
 
 
 
 
-
-
-
-
-
-
-
-
+/*底部*/
 .foot{
-	height: 698px;
-	width: 100%;
+	height: 552px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1512px;	
 }
+
+.sentence-low{
+	background-color: transparent;
+	height: 60px;
+	width: 1200px;
+	left: 200px;
+	top: 246px;
+    position: absolute;
+}
+
+.sentence-mid{
+	margin-left: auto;
+	margin-right: auto;
+}
+.circle-area{
+	background-color: transparent;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 126px;
+	left: 606px;
+}
+.circle-position{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 126px;
+	left: 606px;
+}
+
+.word-low-title{
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+	background-color: transparent;
+	position: absolute;
+	top: 80px;
+	left: 70px;
+}
+.date-num1{
+	font-size: 38px;
+	font-weight: bold;
+	color: #fff;
+	background-color: transparent;
+	float:left;
+	position: absolute;
+	left: 46px;
+	top: 116px;
+}
+.date-num2{
+	font-size: 38px;
+	font-weight: bold;
+	color: #fff;
+	background-color: transparent;
+	float:left;
+	position: absolute;
+	left: 124px;
+	top: 116px;
+}
+
+.date-num3{
+	font-size: 38px;
+	font-weight: bold;
+	color: #fff;
+	background-color: transparent;
+	float:left;
+	position: absolute;
+	left: 204px;
+	top: 116px;
+}
+.date-word1{
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	background-color: transparent;
+	float:left;
+	position: absolute;
+	left: 52px;
+	top: 152px;
+}
+.date-word2{
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	background-color: transparent;
+	float:left;
+	position: absolute;
+	left: 126px;
+	top: 152px;
+}
+.date-word3{
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	background-color: transparent;
+	float:left;
+	position: absolute;
+	right: 42px;
+	top: 152px;
+}
+
+.buttonlow{
+	width: 176px;
+	height: 36px;
+	position:relative;
+	left: 60px;
+	top: 190px;
+	border: 1px solid #1bc0ee;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.buttonlow-word{
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	text-decoration: none;
+	line-height: 36px;
+	font-weight: bold;
+}
+
+
+.buttonlow:hover{
+	color: #1bc0ee;
+	background-color: #fff;
+}
+
+
+

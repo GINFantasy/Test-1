@@ -5,6 +5,7 @@
 }
 div {
 line-height:0px;
+font-size:0
 }
 p {
 word-break:break-word;
@@ -58,7 +59,9 @@ word-break:break-word;
 	color: rgb(106,106,107);
 	text-decoration: none;	
 	list-style: none;
-
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
 }
 .item{
 	
@@ -79,11 +82,8 @@ word-break:break-word;
 	float: right;
 }
 
-.light1:hover{
-	color: rgb(230,39,57);
-}
 
-.light1img:hover{
+.decorate:hover{
 	color: rgb(230,39,57);
 }
 
@@ -127,28 +127,94 @@ word-break:break-word;
 	height: 256px;
 	width: 1512px;
 	background-color: rgba(255,255,255,0.1);
-	
-	top: -220px;
-}
-
-/*图片集*/
-.bluebackgr{
-	background-color: #008cff;
-	width: 378px;
-	height: 195px;
-	top: 938px;
+	margin: 0 auto;
 	position: absolute;
-	left: 586px;
-	opacity: 0.7;
+	top: 600px;
 }
 
-.pointposition{
-	height: 100px;
-	width: 160px;
+.word-head{
 	background-color: transparent;
 	position: absolute;
-	left:110px;
-	top: 46px;
+	left: 200px;
+}
+
+
+
+
+/*图片集*/
+.list-item{
+	width: 300px;
+	height: 155px;
+	opacity: 0;
+	transition: all 0.6s ease;
+	background-color: transparent;
+}
+
+.list-item:hover{
+	opacity: 0.95;
+	height: 195px;
+	width: 378px;
+}
+.item-position{
+	top: 10px;
+	left: 10px;
+}
+.list1{
+	height: 195px;
+	width: 378px;
+	background-image:url('images/ph1.png');
+	float: left;
+	background-size: 100% 100%;
+}
+.list2{
+	height: 195px;
+	width: 378px;
+	background-image:url('images/ph2.png');
+	float: left;
+	background-size: 100% 100%;
+}
+
+.list3{
+	height: 195px;
+	width: 378px;
+	background-image:url('images/ph3.png');
+	float: left;
+	background-size: 100% 100%;
+}
+.list4{
+	height: 195px;
+	width: 378px;
+	background-image:url('images/ph4.png');
+	float: left;
+	background-size: 100% 100%;
+}
+.list5{
+	height: 195px;
+	width: 378px;
+	background-image:url('images/ph5.png');
+	float: left;
+	background-size: 100% 100%;
+}
+.list6{
+	height: 195px;
+	width: 378px;
+	background-image:url('images/ph6.png');
+	float: left;
+	background-size: 100% 100%;
+}
+.list7{
+	height: 195px;
+	width: 378px;
+	background-image:url('images/ph7.png');
+	float: left;
+	background-size: 100% 100%;
+}
+.list8{
+	height: 195px;
+	width: 378px;
+	background-image:url('images/ph8.png');
+	float: left;
+	background-size: 100% 100%;
 }
 .phsize{
 	height: 195px;
@@ -156,24 +222,33 @@ word-break:break-word;
 	float:left;
 	top: -520px;
 }
-.animation:hover{
-	
-}
+
 .photo{
 	width: 1512px;
-	height: 390px;
-	display: block;
+	height:390px;
+	margin: 0 auto;
+	position: relative;
 
-	margin-right: auto;
-	margin-left: auto;
 }
+.photolist{
+	width: 1512px;
+	height: 390px;
+	position: relative;
+
+	background-color: transparent;
+}
+
+
+
+
+
 /*Service部分*/
 .service{
 	width: 1512px;
 	height:1170px;
 	margin: 0 auto;
 	position: relative;
-
+	top: px;
 }
 .menu-tip{
 
@@ -265,9 +340,9 @@ word-break:break-word;
 	display: inline-block;
 }
 .fantastic{
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
 }
 .fantastic:hover{
 	color: rgb(1,174,239);
@@ -444,6 +519,12 @@ word-break:break-word;
 	color: rgb(230,39,57);
 	border-color: rgb(230,39,57);
 }
+
+
+
+
+
+
 /*底部*/
 .foot{
 	height: 552px;

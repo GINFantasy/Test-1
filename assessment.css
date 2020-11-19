@@ -3,6 +3,9 @@
 	margin: 0px;
 	padding: 0px;
 }
+body{
+  margin: 0px;
+}
 div {
 line-height:0px;
 font-size:0
@@ -127,11 +130,17 @@ word-break:break-word;
 	height: 256px;
 	width: 1512px;
 	background-color: rgba(255,255,255,0.1);
-	margin: 0 auto;
-	position: absolute;
-	top: 600px;
+	
+	top: -220px;
+	
 }
-
+.showup:hover{
+	opacity: 1;
+}
+.showup{
+	transition:all 0.4s ease;
+	opacity: 0.01;
+}
 .word-head{
 	background-color: transparent;
 	position: absolute;
@@ -143,8 +152,8 @@ word-break:break-word;
 
 /*图片集*/
 .list-item{
-	width: 300px;
-	height: 155px;
+	width: 378px;
+	height: 165px;
 	opacity: 0;
 	transition: all 0.6s ease;
 	background-color: transparent;
@@ -234,7 +243,7 @@ word-break:break-word;
 	width: 1512px;
 	height: 390px;
 	position: relative;
-
+	top: -250px;
 	background-color: transparent;
 }
 
@@ -265,7 +274,7 @@ word-break:break-word;
 	background-color:transparent;
 	left: 356px;
 	position: relative;
-	top: 60px;
+	top: -180px;
 }
 
 .ourservice{
@@ -277,7 +286,7 @@ word-break:break-word;
 	line-height: 20px;
 	text-align: center;
 	background-color: transparent;
-
+	
 }
 .sentence-our{
 	position: relative;
@@ -477,7 +486,7 @@ word-break:break-word;
 	width: 900px;
 	height: 300px;
 	position: absolute;
-	top: 800px;
+	top: 1100px;
 	left: -50px;
 }
 .size-1{

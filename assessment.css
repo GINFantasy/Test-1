@@ -4,14 +4,16 @@
 	padding: 0px;
 }
 body{
-  margin: 0px;
+ 	margin: 0px;
 }
 div {
-line-height:0px;
-font-size:0
+	line-height:0px;
+	font-size:0;
+	word-wrap: break-word; 
+	word-break: normal;
 }
 p {
-word-break:break-word;
+	word-break:break-word;
 }
 
 .header{
@@ -110,7 +112,20 @@ word-break:break-word;
 	max-width: 100%;
 
 }
-
+.backgrtop2-area{
+	width: 1400px;
+	height: 700px;	
+	position: absolute;
+	top: 160px;
+	left: 60px;
+	background-color: transparent;
+}
+.backgrtop2{
+	top: -1800px;
+	background-color: transparent;
+	width: 1400px;
+	height: 400px;
+}
 .sizetop{
 	position: absolute;
 	top: 36px;
@@ -146,10 +161,51 @@ word-break:break-word;
 	position: absolute;
 	left: 200px;
 }
+.word-top-area{
+	position: absolute;
+	height: 100px;
+	width: 720px;
+	background-color: transparent;
+	right: 60px;
+	top: 300px;
 
+}
+.word-top1{
+	font-size: 80px;
+	color: #e0e0e0;
+	text-align:center;
 
-
-
+	font-weight: bold;
+}
+.word-top2{
+	font-size: 30px;
+	color:#e0e0e0 ;
+	text-align: center;
+	bottom: 20px;
+	position: absolute;
+}
+.word-cube1{
+	font-size: 40px;
+	color: #fff;
+	position: absolute;
+	top: 40px;
+	left: 80px;
+}
+.word-cube2{
+	font-size: 20px;
+	color: #fff;
+	position: absolute;
+	top: 90px;
+	left: 180px;
+}
+.text-cube{
+	width: 800px;
+	height: 100px;
+	background-color: transparent;
+	left: 356px;
+	top: 50px;
+	position: absolute;
+}
 /*图片集*/
 .list-item{
 	width: 378px;
@@ -480,10 +536,30 @@ word-break:break-word;
 	display: inline-block;
 	
 }
-
+.bottom-words1{
+	font-size: 40px;
+	color: #fff;
+	position: absolute;
+	top: 20px;
+	left: 24spx;
+}
+.bottom-words2{
+	font-size: 8px;
+	color: #8e8e8e;
+	position: absolute;
+	top: 60px;
+	left: 100px;
+}
+.bottom-words3{
+	font-size: 8px;
+	color: #8e8e8e;
+	position: absolute;
+	top: 24px;
+	left: 160px;
+}
 .bottom-sentence{
 	background-color: transparent;
-	width: 900px;
+	width: 1200px;
 	height: 300px;
 	position: absolute;
 	top: 1100px;
